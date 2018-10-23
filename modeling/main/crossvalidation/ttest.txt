@@ -1,0 +1,15 @@
+
+Two sided t-test for paired samples (CNN vs Ridge):
+empathy : 0.0185
+distress : 0.0069
+mean : 0.0007
+
+Two sided t-test for paired samples (CNN vs FFN):
+empathy : 0.004
+distress : 0.0021
+mean : 0.0005
+
+Two sided t-test for paired samples (FFN vs Ridge):
+empathy : 0.2241
+distress : 0.1068
+mean : 0.0407
