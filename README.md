@@ -1,9 +1,7 @@
-# Empathic Reactions. Modeling Empathy and Distress in Reaction to News Stories
+# Empathic Reactions
 
-This repository contains the dataset, experimental code and results presented in our EMNLP 2018.
+This repository contains the dataset, experimental code and results presented in our EMNLP 2018 paper "Modeling Empathy and Distress in Reaction to News Stories".
 
-## Introduction
-Empathy is an important aspect of interpersonal communication
 
 ## Dataset
 Our dataset comprises 1860 short texts together with ratings for two kinds of empathic states, empathic concern and personal distress. It is, to our knowledge, the first publicly available gold standard for NLP-based empathy prediction. The `csv`-formatted data can be found [here](data/responses/data/messages.csv). For details regarding our annotation methodology please refer to the paper.
