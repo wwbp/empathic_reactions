@@ -1,6 +1,6 @@
-# Empathic Reactions
+# Empathic Reactions. Modeling Empathy and Distress in Reaction to News Stories
 
-This repository contains the dataset, experimental code and results presented in our EMNLP 2018 paper "Modeling Empathy and Distress in Reaction to News Stories".
+This repository contains the dataset, experimental code and results presented in our EMNLP 2018.
 
 
 ## Dataset
@@ -16,7 +16,7 @@ The FastText word vectors can be found [here](https://fasttext.cc/docs/en/englis
 
 Once everything is set up, executing `run_experiments.sh` will re-run our cross-validation experiment. The results will be stored in `modeling/main/crossvalidation/results`.
 
-## Citation
+## Paper & Citation
 
 ```
 @inproceedings{Buechel18emnlp,
