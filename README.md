@@ -1,6 +1,6 @@
-# Empathic Reactions. Modeling Empathy and Distress in Reaction to News Stories
+# Empathic Reactions
 
-This repository contains the dataset, experimental code and results presented in our EMNLP 2018.
+This repository contains the dataset, experimental code and results presented in our EMNLP 2018 paper "Modeling Empathy and Distress in Reaction to News Stories".
 
 
 ## Dataset
