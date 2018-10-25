@@ -2,8 +2,6 @@
 
 This repository contains the dataset, experimental code and results presented in our EMNLP 2018.
 
-## Introduction
-Empathy is an important aspect of interpersonal communication
 
 ## Dataset
 Our dataset comprises 1860 short texts together with ratings for two kinds of empathic states, empathic concern and personal distress. It is, to our knowledge, the first publicly available gold standard for NLP-based empathy prediction. The `csv`-formatted data can be found [here](data/responses/data/messages.csv). For details regarding our annotation methodology please refer to the paper.
@@ -16,7 +14,7 @@ We ran our code under Ubuntu 16.04.4. Our `conda` environment is specified in `e
 
 The FastText word vectors can be found [here](https://fasttext.cc/docs/en/english-vectors.html).
 
-Once everything is set up, executing `run_expeirments.sh` will re-run our cross-validation experiment. The results will be stored in `modeling/main/crossvalidation/results`.
+Once everything is set up, executing `run_experiments.sh` will re-run our cross-validation experiment. The results will be stored in `modeling/main/crossvalidation/results`.
 
 ## Citation
 
