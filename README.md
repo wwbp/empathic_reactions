@@ -14,6 +14,10 @@ Our dataset is available under [CC BY 4.0](https://creativecommons.org/licenses/
 ## Re-Running the Experiments
 We ran our code under Ubuntu 16.04.4. Our `conda` environment is specified in `environment.yaml`. To re-run our experiments, you have to add the root directory of the repository to you python path and setup an environment variable `VECTORS`. Details can be found in `activate_project_environment` and `constants.py`. Please note that re-running our code will produce varying results due to racing conditions caused by multi-threading.
 
+The FastText word vectors can be found [here](https://fasttext.cc/docs/en/english-vectors.html).
+
+Once everything is set up, executing `run_expeirments.sh` will re-run our cross-validation experiment. The results will be stored in `modeling/main/crossvalidation/results`.
+
 ## Citation
 
 ```
