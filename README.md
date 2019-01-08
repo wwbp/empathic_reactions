@@ -10,7 +10,9 @@ Our dataset comprises 1860 short texts together with ratings for two kinds of em
 Our dataset is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Re-Running the Experiments
-We ran our code under Ubuntu 16.04.4. Our `conda` environment is specified in `environment.yaml`. To re-run our experiments, you have to add the root directory of the repository to you python path and setup an environment variable `VECTORS`. Details can be found in `activate_project_environment` and `constants.py`. Please note that re-running our code will produce varying results due to racing conditions caused by multi-threading.
+We ran our code under Ubuntu 16.04.4. Our `conda` environment is specified in `environment.yaml`. To re-run our experiments, you have to add the root directory of the repository to you python path and setup an environment variable `VECTORS`. Details can be found in the script `activate_project_environment` and `constants.py`. Before running the script, make sure that you have a properely named `conda` environment set-up on your machine (default name is `emnlp18empathy`).
+
+Please note that re-running our code will produce varying results due to racing conditions caused by multi-threading.
 
 The necessary FastText word vectors can be found [here](https://fasttext.cc/docs/en/english-vectors.html).
 
