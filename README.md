@@ -10,7 +10,7 @@ Our dataset comprises 1860 short texts together with ratings for two kinds of em
 Our dataset is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Re-Running the Experiments
-We ran our code under Ubuntu 16.04.4. Our `conda` environment is specified in `environment.yaml`. To re-run our experiments, you have to add the root directory of the repository to your python path and setup an environment variable `VECTORS`. Details can be found in the script `activate_project_environment` and `constants.py`. Before running the script, make sure that you have a properely named `conda` environment set-up on your machine (default name is `emnlp18empathy`).
+We ran our code under Ubuntu 16.04.4. Our `conda` environment is specified in `environment.yaml`. To re-run our experiments, you have to add the root directory of the repository to your python path and setup an environment variable `VECTORS`. Details can be found in the script `activate_project_environment` and `constants.py`. Before running the script, make sure that you have a properely named `conda` environment set-up on your machine (default name is `emnlp18empathy`). If you do not have a gpu then you will want to change the environment yaml file [here](https://github.com/wwbp/empathic_reactions/blob/master/environment.yaml#L82).
 
 Please note that re-running our code will produce varying results due to racing conditions caused by multi-threading.
 
